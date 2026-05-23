@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seo-audit-health-checker"
+version = "2.0.0"
+description = "Pure Python SEO audit tool for .txt, .md, and .html content."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Arun Agarwal" }
+]
+dependencies = []
+
+[project.scripts]
+seoaudit = "seoaudit:main"
+
+[tool.setuptools]
+py-modules = ["seoaudit"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
