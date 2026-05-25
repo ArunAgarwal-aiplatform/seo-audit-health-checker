@@ -1,4 +1,3 @@
-cat > /home/claude/seo-audit-checker/README.md << 'EOF'
 # 🔍 SEO Audit Health Checker
 
 > **Brutal honesty. Zero APIs. Pure Python.**
