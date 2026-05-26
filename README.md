@@ -12,10 +12,10 @@
 - **Native file-picker dialog** — opens a real OS "Open File" window automatically
 - **10 SEO checks** aligned with current best practices
 - **Works on `.md`, `.txt` (Notepad), `.html`** — all three handled intelligently
-- **Smart content-type detection** — Blog, Article, Product Page, Technical, Plain-text
+- **Smart content-type detection** — Blog, Article, Product Page, Technical, Plain-text, Tags
 - **Grade A–F** with a randomised satirical verdict per grade (3 variants each)
 - **Top 4 actionable suggestions** ranked by your weakest checks
-- **Visual score bars** with `█░` progress indicators per check
+- **Visual score bars** with `█░` progress indicators per check 
 - **Jupyter / IPython safe** — kernel JSON args are silently ignored
 - **Zero dependencies** — pure Python 3 standard library only
 
